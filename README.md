@@ -1,2 +1,47 @@
-# Zepto-SQL-Data-Analysis
-SQL based business analysis on Zepto retail dataset
+
+# Zepto SQL Data Analysis Project
+
+## Project Overview
+This project performs SQL-based business analysis on Zepto dataset.
+
+---
+
+## Business Questions Solved
+
+- COUNT OF ROWS  
+- CHECK NULL values  
+- DIFFERENT PRODUCT CATEGORY  
+- CHECK PRODUCT IN STOCK  
+- PRODUCT NAME PRESENT MULTIPLE TIMES  
+- PRODUCT WITH PRICE = 0  
+- CONVERT PAISE TO RUPEES  
+- FIND THE TOP 10 BEST-VALUE PRODUCTS BASED ON THE DISCOUNT PERCENTAGE  
+- WHAT ARE THE PRODUCTS WITH HIGH MRP BUT OUT OF STOCK  
+- CALCULATE ESTIMATED REVENUE FOR EACH CATEGORY  
+- FIND ALL PRODUCTS WHERE MRP IS GREATER THAN RS 500 AND DISCOUNT IS LESS THAN 10%  
+- IDENTIFY THE TOP 5 CATEGORIES OFFERING THE HIGHEST AVERAGE DISCOUNT PERCENTAGE  
+- FIND THE PRICE PER GRAM FOR PRODUCTS ABOVE 100g AND SORT BY BEST VALUE  
+- GROUP THE PRODUCTS INTO CATEGORIES LIKE LOW, MEDIUM, BULK  
+- WHAT IS TOTAL INVENTORY WEIGHT PER CATEGORY  
+
+---
+
+## Tools Used
+- SQL (MySQL)
+- Excel
+- CSV Dataset
+
+---
+
+## Project Structure
+
+Zepto-SQL-Data-Analysis/
+│
+├── Data/
+│   ├── zepto_v1.xlsx
+│   ├── zepto_v2.csv
+│
+├── SQL/
+│   └── ZEPTO_SQL_PROJECT.sql
+│
+└── README.md
